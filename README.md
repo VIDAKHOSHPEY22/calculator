@@ -36,11 +36,46 @@ This project is ideal for beginners who want to understand the fundamentals of D
 ## 📁 Project Structure
 
 ```text 
-calculator/
+📁 Project Structure
+
+lecture3/
+├── calculator/                    # Vanilla JS Calculator App
+│   ├── index.html                 # Main HTML file
+│   ├── style.css                  # Styling for calculator
+│   └── script.js                  # JavaScript logic
 │
-├── index.html # Main HTML page
-├── style.css  # CSS styles
-└── script.js  # JavaScript logic
+├── newyear/                       # Django app: newyear
+│   ├── migrations/
+│   ├── static/
+│   ├── templates/
+│   ├── init.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── tasks/                         # Django app: tasks (To-Do)
+│   ├── migrations/
+│   ├── static/
+│   ├── templates/
+│   ├── init.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── screenshots/                   # Project preview images
+│   ├── calculator_simple.png
+│   ├── calculator_pro.png
+│   └── tasks.png
+│
+├── manage.py                      # Django management script
+└── README.md                      # Project documentation
 ```
 
 ---
@@ -57,6 +92,11 @@ open index.html
 
 or simply double-click the file.
 
+3. Don't forget to install requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
 
 
 
